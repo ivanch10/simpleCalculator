@@ -1,0 +1,25 @@
+{
+  "name": "simple-calculator",
+  "version": "1.0.0",
+  "description": "A program to calculate sum of two numbers",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "Python",
+    "zerorpc",
+    "demo"
+  ],
+  "author": "Chi-Pang Chan",
+  "license": "MIT",
+  "dependencies": {
+    "electron-rebuild": "^1.8.8",
+    "zerorpc": "git+https://github.com/fyears/zerorpc-node.git"
+  },
+  "devDependencies": {
+    "electron": "^1.8.8",
+    "electron-packager": "^14.1.1"
+  }
+}
